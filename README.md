@@ -8,5 +8,5 @@ This project contains a refreshed version of my personal portfolio containing up
 ---
 Access the portfolio using the link below:
 
-link
+[My Portfolio](https://steven-m-carpenter.github.io/PersonalPortfolio/)
 
