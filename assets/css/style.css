@@ -1,0 +1,118 @@
+/* font-family: 'Kanit', sans-serif;
+font-family: 'Rokkitt', serif;
+font-family: 'Alegreya Sans SC', sans-serif; */
+
+
+table {
+    margin-bottom: 24px;
+    font-family: 'Kanit', sans-serif;
+}
+
+td {
+    font-size: 14px;
+}
+
+.jumbotron {
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.nameBanner {
+    background-color: unset;
+}
+
+.leftSection {
+    background-color: white;
+    box-shadow: 4px 12px 12px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.sectionHead{
+    font-weight: bold;
+    color: darkgreen
+}
+
+.tableLogo {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: darkgreen;
+    color: white;
+}
+
+.tableTitle {
+    width: 35%;
+}
+
+.tableText {
+    width: 65%;
+}
+
+.card {
+    margin-bottom: 24px;
+    font-family: 'Rokkitt', serif;
+    box-shadow: 4px 12px 12px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.card-header {
+    background-image: linear-gradient(to right, indianred , orange);
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-img{
+    margin-bottom: 8px;
+}
+
+.goButtons {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgreen; 
+}
+
+.carouselLink {
+    margin-left: 16px;
+    margin-bottom: 32px;
+}
+
+.carousel-control-next {
+    color: blue;
+}
+
+#nameValue {
+    font-family: 'Kanit', sans-serif;
+    color: darkgreen;
+    text-shadow: 3px 3px darkgrey;
+}
+
+#tagLine {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: black;
+}
+
+#hostPhoto {
+    float: left;
+    margin-bottom: 8px;
+    margin-right: 16px;
+}
+
+#emailIcon {
+    color: red; 
+}
+
+#emailLink {
+    margin-top: 2px;
+}
+
+#linkedInIcon {
+    font-size: 24px;
+    color: #0077b5;
+}
+
+#gitIcon {
+    font-size: 24px;
+}
+
