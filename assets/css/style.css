@@ -9,7 +9,36 @@ table {
 }
 
 td {
-    font-size: 14px;
+    font-size: 16px;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: darkgreen;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid darkgreen;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: indianred;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: indianred;
+}
+
+.mainText {
+    font-size: 18px;
 }
 
 .jumbotron {
@@ -31,17 +60,28 @@ td {
     color: darkgreen
 }
 
-.tableLogo {
+.tableLogo1 {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     background-color: darkgreen;
     color: white;
+    font-size: 20px;
+}
+
+.tableLogo2 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-image: linear-gradient(to right, darkgreen, mediumseagreen );
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
 }
 
 .tableTitle {
+    font-size: 16px;
     width: 35%;
 }
 
 .tableText {
+    font-size: 16px;
     width: 65%;
 }
 
@@ -51,8 +91,15 @@ td {
     box-shadow: 4px 12px 12px 0 hsla(0, 0%, 0%, 0.2);
 }
 
+.card-body {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .card-header {
-    background-image: linear-gradient(to right, indianred , orange);
+    /* background-image: linear-gradient(to right, indianred , orange); */
+    background-image: linear-gradient(to right, darkgreen, mediumseagreen );
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
 }
